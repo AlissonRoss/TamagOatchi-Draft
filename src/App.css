@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color:#282c34;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -17,6 +18,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+footer {
+  background-color: #282c34;
+  min-height: 10vh;
 }
 
 #scene, .App-body{
