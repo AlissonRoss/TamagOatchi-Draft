@@ -1,4 +1,4 @@
-import React, { Component , useEffect, useState} from 'react';
+import React, { Component} from 'react';
 import { Button } from '@mui/material';
 export class Oatchi extends Component{
     
@@ -21,7 +21,7 @@ export class Oatchi extends Component{
         this.decrementHunger();
       }, 8000); //interval of 8 seconds
       
-     console.log("setInterval within Oatchi's Hunger was called")
+     console.log("Oatchi.js: setInterval Hunger was called")
     }
   
     componentWillUnmount() {
@@ -37,7 +37,6 @@ export class Oatchi extends Component{
         }));
       }
     };
-  
   
     incrementHunger = () => {
       this.setState({hunger: this.state.hunger+1})
