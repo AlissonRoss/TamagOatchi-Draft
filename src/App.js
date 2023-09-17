@@ -1,6 +1,6 @@
 
 import './App.css';
-import Scene from './Scene.js';
+import AnimateOatchi from './AnimateOatchi';
 import {Oatchi} from './Oatchi'
 import Time from './Time'
 import React from 'react';
@@ -16,7 +16,7 @@ function App() {
         <Time/>
         <Oatchi/>
       </header>
-      <Scene/>
+      <AnimateOatchi/>
       
       <footer>
 
